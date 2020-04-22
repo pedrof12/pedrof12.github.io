@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: #FBFFFE;
+    overflow-x: hidden;
+}
+
+.top_nav .banner_c
+{
+    width: 100%;
+    height: 531px;
+    position: relative;
+}
+
+.top_nav .banner
+{
+    width: 100%;
+    height: 531px;
+    background: url("../img/bg.svg") bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.top_nav .banner h3 
+{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 44px;
+    margin-top: 88px;
+    font-family: 'Montserrat'!important;
+}
+
+.top_nav .banner p
+{
+    color: #212E2A;
+    font-family: 'Poppins'!important;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.saber_mais 
+{
+    font-family: 'Poppins'!important;
+    font-size: 16px;
+    color: #212E2A;
+    text-decoration: none;
+    border-bottom: 1px solid #212E2A;
+}
+
+.top_nav .menu .nav-item
+{
+    margin: 0 7px;
+}
+
+.top_nav .menu .nav-link
+{
+    color: #E0F8F0;
+    font-family: 'Poppins'!important;
+    font-size: 16px;
+    border: none;
+}
+
+.top_nav .menu .item-conta
+{
+    background: #1D614B;
+    padding: 2px 20px;
+    border-radius: 16px;
+}
+
+.section_header h5
+{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    color: #707E7A;
+}
+
+.section_header h2
+{
+    font-size: 28px;
+    color: #24342F;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.dominio 
+{
+    margin-top: 80px;
+}
+
+.dominio .input-group
+{
+    width: 440px;
+    margin: 50px auto;
+    height: 52px;
+}
+
+.dominio .input-group .input-group-prepend span
+{
+    background: transparent;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(216, 230, 226, 0.397);
+    color: #9BABA7;
+}
+
+.dominio .input-group input 
+{
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(216, 230, 226, 0.397);
+    border-radius: 4px;
+    color: #9BABA7;
+}
+
+.dominio .input-group input::placeholder
+{
+    color: #9BABA7;
+}
+
+.dominio .input-group button
+{
+    border-radius: 0px 4px 4px 0px;
+    background: #168265;
+    border: 1px solid rgba(216, 230, 226, 0.397);
+}
+
+.peformace 
+{
+    margin-top: 100px;
+}
+
+.peformace .section_header
+{
+    margin-top: 62px;
+}
+
+.peformace .section_header p
+{
+    font-size: 15.6px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #5C6563;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.sobre 
+{
+    margin-top: 80px;
+}
+
+.sobre .section_header
+{
+    margin-bottom: 270px;
+}
+
+.sobre .banner_c 
+{
+    width: 100%;
+    height: 638px;
+    position: relative;
+}
+
+.sobre .banner
+{
+    width: 100%;
+    height: 638px;
+    background: url("../img/bg_2.svg") bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.sobre .card
+{
+    background: #FFFFFF;
+    padding: 38px;
+    border: 1px solid rgba(232, 241, 238, 0.692);
+    border-radius: 5px;
+    margin: 0 28px;
+    margin-top: -210px;
+    height: 330px;
+}
+
+.sobre .card h3 
+{
+    font-size: 20px;
+    color: #24342F;
+    font-weight: 500;
+    margin-top: 26px;
+    font-family: 'Poppins';
+    margin-bottom: 13px;
+}
+
+.sobre .card p 
+{
+    font-size: 16px;
+    color: #697471;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.sobre .card .card_footer .box_icon
+{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background: #1D614B;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.sobre .card .card_footer .box_icon img 
+{
+    margin-top: 15px;
+}
+
+.cpanel
+{
+    margin: 110px 38px;
+}
+
+.cpanel .section_header 
+{
+    margin-left: 25px;
+}
+
+.cpanel .section_header h5
+{
+    color: #EBEBEB;
+}
+
+.cpanel .section_header h2
+{
+    color: #24342F;
+    margin-bottom: 32px;
+}
+
+.cpanel .section_header p 
+{
+    color: #364641;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins';
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
