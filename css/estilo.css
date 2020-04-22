@@ -8,6 +8,11 @@ body
     overflow-x: hidden;
 }
 
+a:hover
+{
+    text-decoration: none;
+}
+
 .top_nav .banner_c
 {
     width: 100%;
